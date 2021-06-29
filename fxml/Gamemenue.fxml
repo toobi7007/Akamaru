@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox id="Gamemenue" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="500.0" spacing="10.0" style="-fx-background-size: cover;" stylesheets="@../img/test.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="48.0" style="-fx-background-color: linear-gradient(#b38600, #ffd24d); -fx-border-radius: 10; -fx-background-radius: 10;">
+         <right>
+            <TextField fx:id="nameS" prefHeight="24.0" prefWidth="147.0" promptText="Name" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets right="20.0" />
+               </BorderPane.margin>
+            </TextField>
+         </right>
+         <left>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Spieler Schwarz" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets left="20.0" />
+               </BorderPane.margin>
+            </Text>
+         </left>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </BorderPane>
+      <BorderPane prefHeight="48.0" style="-fx-background-color: linear-gradient(#b38600, #ffd24d); -fx-background-radius: 10;">
+         <right>
+            <TextField fx:id="nameW" prefHeight="24.0" prefWidth="147.0" promptText="Name" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets right="20.0" />
+               </BorderPane.margin>
+            </TextField>
+         </right>
+         <left>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Spieler Weiß" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets left="20.0" />
+               </BorderPane.margin>
+            </Text>
+         </left>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </BorderPane>
+      <BorderPane prefHeight="48.0" style="-fx-background-color: linear-gradient(#b38600, #ffd24d); -fx-background-radius: 10;">
+         <right>
+            <TextField fx:id="komi" prefHeight="24.0" prefWidth="147.0" text="6.5" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets right="20.0" />
+               </BorderPane.margin>
+            </TextField>
+         </right>
+         <left>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Komi " BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets left="20.0" />
+               </BorderPane.margin>
+            </Text>
+         </left>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </BorderPane>
+      <BorderPane prefHeight="48.0" style="-fx-background-color: linear-gradient(#b38600, #ffd24d); -fx-background-radius: 10;">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <center>
+            <ToggleButton fx:id="toggleButton13" maxWidth="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#toggleB13" prefWidth="100.0" text="13 x 13" BorderPane.alignment="CENTER" />
+         </center>
+         <left>
+            <ToggleButton fx:id="toggleButton9" maxWidth="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#toggleB9" prefWidth="100.0" text="9 x 9" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets left="20.0" />
+               </BorderPane.margin>
+            </ToggleButton>
+         </left>
+         <right>
+            <ToggleButton fx:id="toggleButton19" maxWidth="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#toggleB19" prefWidth="100.0" text="19 x 19" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets right="20.0" />
+               </BorderPane.margin>
+            </ToggleButton>
+         </right>
+      </BorderPane>
+      <Button id="spielStart" fx:id="spielStart" mnemonicParsing="false" onAction="#start_OnAction" prefHeight="48.0" prefWidth="460.0" text="START" />
+      <Button mnemonicParsing="false" onAction="#zurueck_OnAction" text="Zurück" />
+   </children>
+   <padding>
+      <Insets left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

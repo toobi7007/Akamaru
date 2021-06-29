@@ -1,0 +1,41 @@
+.button {
+	 -fx-background-color:linear-gradient(#b38600, #ffd24d);
+}
+
+.button:hover {
+	-fx-background-color: #ffd24d;
+	
+}
+
+.button:pressed {
+	-fx-background-color: #ffd24d;
+	-fx-scale-y: 1.1;
+	-fx-scale-x: 1.02;
+}
+
+.toggle-button {
+	-fx-background-color: #b38600;
+	-fx-border-color: #836526;
+	-fx-background-radius: 10;
+	-fx-border-radius: 10;
+}
+
+.toggle-button:selected {
+	-fx-background-color: #ffd24d;
+}
+
+#Hauptmenue {
+	-fx-background-image:url('background.jpg');
+	-fx-background-size: 100% 100%;
+}
+
+#Gamemenue {
+	-fx-background-image:url('background.jpg');
+	-fx-background-size: 100% 100%;
+}
+
+#spielStart {
+	-fx-background-color: #8CEE73;
+	-fx-background-radius: 10;
+	
+}

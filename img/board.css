@@ -1,0 +1,44 @@
+.hbox {
+	-fx-background-color: green;
+	
+}
+
+#board {
+	-fx-background-color: yellow;
+}
+
+
+#obereEckeRechts {
+	-fx-background-image: url("img9/obenRechts.png");
+}
+
+#obereEckeLinks {
+	-fx-background-image: url(img9/obenLinks.png);
+}
+
+#untereEckeRechts {
+	-fx-background-image: url("img9/untenRechts.png");
+}
+
+#untereEckeLinks {
+	-fx-background-image: url("img9/untenLinks.png")
+}
+
+#seiteRechts {
+	-fx-background-image: url("img9/seiteRechts.png");
+}
+
+#seiteOben {
+	-fx-background-image: url("img9/seiteOben.png");
+}
+
+#seiteLinks {
+	-fx-background-image: url("img9/seiteLinks.png");
+}
+
+#seiteUnten {
+	-fx-background-image: url("img9/seiteUnten.png");
+}
+#mitte {
+	-fx-background-image: url("img9/mitte.png");
+}
